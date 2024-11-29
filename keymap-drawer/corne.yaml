@@ -1,6 +1,6 @@
-layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  default: [↹, Q, W, E, R, T, Y, U, I, O, P, ⌫, Ctrl, A, S, D, F, G, H, J, K, L, ;, '''', Shift, Z, X, C, V, B, N, M, ',', ., /, Esc, Gui, lower, ␣, ⏎, raise, Alt]
+  default: [↹, Q, W, E, R, T, Y, U, I, O, P, ⌫, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', Ctrl, Z, X, C, V, B, N, M, ',', ., /, Esc, Gui, lower, ␣, ⏎, raise, Alt]
   lower:
   - ↹
   - '1'
@@ -8,36 +8,36 @@ layers:
   - '3'
   - '4'
   - '5'
+  - Home
+  - Page Down
+  - Page Up
+  - End
+  - ''
+  - ⌫
+  - CLCK
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - ⌫
-  - BT CLR
-  - BT 1
-  - BT 2
-  - BT 3
-  - BT 4
-  - BT 5
   - ←
   - ↓
   - ↑
   - →
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
   - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ⌦
+  - ''
+  - ''
+  - ''
+  - ''
+  - Esc
   - Gui
   - {type: held}
   - ␣
@@ -57,24 +57,24 @@ layers:
   - (
   - )
   - ⌫
-  - Ctrl
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
+  - LSHIFT
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - '-'
   - '='
   - '['
   - ']'
   - \
   - '`'
-  - Shift
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - F6
+  - F7
+  - F8
+  - F10
+  - F11
+  - F12
   - _
   - +
   - '{'
@@ -82,7 +82,50 @@ layers:
   - '|'
   - '~'
   - Gui
-  - '&studio_unlock'
+  - {t: ▽, type: trans}
+  - ␣
+  - ⏎
+  - {type: held}
+  - Alt
+  tri:
+  - ↹
+  - ''
+  - VOL UP
+  - PLAY PAUSE
+  - ''
+  - ''
+  - '='
+  - KP 7
+  - KP 8
+  - KP 9
+  - ''
+  - ⌫
+  - LSHIFT
+  - BACK
+  - VOLUME DOWN
+  - NEXT
+  - ''
+  - '&noneRCLK'
+  - '-'
+  - KP 4
+  - KP 5
+  - KP 6
+  - ''
+  - LNLCK
+  - Ctrl
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - KP 0
+  - KP 1
+  - KP 2
+  - KP 3
+  - .
+  - ''
+  - Gui
+  - {t: '&studio_unlock', type: held}
   - ␣
   - ⏎
   - {t: '&studio_unlock', type: held}
