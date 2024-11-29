@@ -105,7 +105,7 @@ layers:
   - VOLUME DOWN
   - NEXT
   - ''
-  - '&noneRCLK'
+  - ''
   - '-'
   - KP 4
   - KP 5
@@ -123,10 +123,10 @@ layers:
   - KP 2
   - KP 3
   - .
-  - ''
+  - '&studio_unlock'
   - Gui
-  - {t: '&studio_unlock', type: held}
+  - {type: held}
   - ␣
   - ⏎
-  - {t: '&studio_unlock', type: held}
+  - {type: held}
   - Alt
